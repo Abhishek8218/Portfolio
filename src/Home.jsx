@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 const Home = () => {
   return (
-    <div name="home" className=" md:pt-20  h-fit w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-screen">
+    <div name="home" className=" md:pt-20  h-fit w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-fit">
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-fit px-4 md:flex-row py-10">
         <div className="flex flex-col justify-center h-fit pt-20 pb-15 md:mr-8">
           <h2 className="text-4xl sm:text-7xl font-bold">I'm a Frontend Developer</h2>
