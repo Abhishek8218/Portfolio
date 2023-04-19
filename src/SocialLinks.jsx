@@ -54,11 +54,11 @@ const SocialLinks = () => {
           ))}
         </ul>
       </div>
-      <div className="md:hidden flex justify-center items-center mt-4">
+      <div className="md:hidden flex justify-center items-center my-6">
         <ul className="flex">
           {Links.map(({ id, icon, href }) => (
-            <li key={id} className="mx-2">
-              <a href={href}>{icon}</a>
+            <li key={id} className="mx-3">
+              <a  href={href}>  <span size={30}>{icon}</span> </a>
             </li>
           ))}
         </ul>

@@ -14,23 +14,13 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          I am currently pursuing my second year in BCA and have recently completed a 6-month web development course with React from Codeyogi platform. As an aspiring fullstack web developer, I am deeply passionate about technology and enjoy creating functional and visually appealing websites using the latest web technologies.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          I am a fast learner who is always eager to expand my skillset and take on new challenges. Currently, I am seeking an internship opportunity to gain real-world experience and apply my knowledge in a practical setting. If you're looking for a dedicated and hardworking individual who is eager to learn and grow, please don't hesitate to contact me.
         </p>
       </div>
     </div>

@@ -9,12 +9,12 @@ const Home = () => {
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-fit px-4 md:flex-row py-10">
         <div className="flex flex-col justify-center h-fit pt-20 pb-15 md:mr-8">
           <h2 className="text-4xl sm:text-7xl font-bold">I'm a Frontend Developer</h2>
-          <p className="mt-4 text-gray-400">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          <p className="mt-4  text-gray-300">
+            Welcome to my portfolio website! I'm Abhishek, a frontend developer. I'm passionate about creating visually appealing and functional websites using the latest web technologies. Currently, I specialize in frontend development and am looking forward to learning fullstack development soon. Feel free to browse my portfolio and reach out to me with any questions or project inquiries. Thank you for stopping by!
           </p>
 
           <div>
-            <button className="flex py-3 px-5 my-4 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-white 
+            <button className="flex py-3 px-5 my-6 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-white 
  w-fit">
               Resume <span  className=""><AiOutlineDownload size={20} className=" ml-1"/></span>
             </button>

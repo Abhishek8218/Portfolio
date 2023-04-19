@@ -20,6 +20,11 @@ const NavBar = () => {
     id: 4,
     link: "contact"
   },
+    {
+    id: 5,
+    link: "skills"
+  },
+    
 ]
 
   return(
@@ -41,7 +46,7 @@ const NavBar = () => {
     
   </div>
   { mobile && (
-   <ul className=" flex flex-col justify-center items-center absolute top-0 left-0 w-full h-fit  text-white bg-gradient-to-r from-gray-500 to-black  md:hidden">
+   <ul className=" flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen  text-white bg-gradient-to-r from-gray-500 to-black  md:hidden">
      {link.map(({id,link}) => (
       <li key={id} className="py-6 cursor-pointer capitalize text-4xl">
    <Link onClick= { () => setMobile(!mobile)} to={link} smooth duration={800}> {link}</Link>
