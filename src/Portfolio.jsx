@@ -20,7 +20,7 @@ const Portfolio = () => {
       id: 3,
       src: "https://images.unsplash.com/photo-1617440168937-c6497eaa8db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFwcHklMjBhbmQlMjBzYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       title: "Mood Tracker",
-      href: "https://assignment-25-abhishekkuma449.codeyogi-batch-2.repl.co"
+      href: "https://assignment-26-abhishekkuma449.codeyogi-batch-2.repl.co"
     },
     
   ];
