@@ -3,6 +3,7 @@ import {FaBars,FaTimes} from "react-icons/fa";
 import { Link } from "react-scroll";
 const NavBar = () => {
   const [mobile,setMobile] = useState(false);
+  
   const link =[
   { 
     id: 1,
@@ -37,7 +38,7 @@ const NavBar = () => {
   <ul className=" hidden md:flex">
     {link.map(({id,link}) => (
       <li key={id} className="text-gray-200 px-4 capitalize cursor-pointer font-medium hover:scale-105 duration-200 ">
-  <Link to={link} smooth duration={500}> {link}</Link>
+  <Link to={link} smooth duration={800} > {link}</Link>
   </li>
   ))}
   </ul>
@@ -49,7 +50,7 @@ const NavBar = () => {
    <ul className=" flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen  text-white bg-gradient-to-r from-gray-500 to-black  md:hidden">
      {link.map(({id,link}) => (
       <li key={id} className="py-6 cursor-pointer capitalize text-4xl">
-   <Link onClick= { () => setMobile(!mobile)} to={link} smooth duration={800}> {link}</Link>
+   <Link onClick= { () => setMobile(!mobile)} to={link} smooth duration={800} offset={-80}> {link}</Link>
   </li>
   ))}
   </ul>
