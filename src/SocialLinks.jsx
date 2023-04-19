@@ -21,13 +21,13 @@ const SocialLinks = () => {
       id: 3,
       icon: <HiOutlineMail size={30} />,
       text: "E-Mail",
-      href: "mailto:yourname@example.com",
+      href: "mailto: ak3037308@gmail.com",
     },
     {
       id: 4,
       icon: <FaInstagram size={30} />,
       text: "Insta..",
-      href: "https://www.instagram.com/abhishek_8218/",
+      href: "https://www.instagram.com/abhishek_47k/",
       style: "rounded-br-md",
     },
   ];
