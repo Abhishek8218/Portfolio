@@ -4,6 +4,8 @@ import profile from "../assets/profile.jpeg";
 import SocialLinks from "./SocialLinks";
 
 const Home = () => {
+
+  
   return (
     <div name="home" className=" md:pt-20  h-fit w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-fit">
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-fit px-4 md:flex-row py-10">
@@ -14,10 +16,12 @@ const Home = () => {
           </p>
 
           <div>
+            <a href="Abhishek_Kumar_Resume.pdf" download>
             <button className="flex py-3 px-5 my-6 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-white 
- w-fit">
+ w-fit" >
               Resume <span  className=""><AiOutlineDownload size={20} className=" ml-1"/></span>
             </button>
+              </a>
           </div>
           <SocialLinks/>
         </div>
