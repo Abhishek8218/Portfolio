@@ -6,6 +6,7 @@ export default {
     extend: {},
     fontFamily: {
       name: ["Audiowide"],
+      para: ['Caudex', 'serif'],
     },
   },
   plugins: [],

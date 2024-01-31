@@ -6,9 +6,12 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import github from "../assets/github.png";
-
+import mongo1 from "../assets/mongo1.png";
 import tailwind from "../assets/tailwind.png";
-
+import sass from "../assets/sass.png";
+import node from "../assets/node.png";
+import postman from "../assets/postman.png";
+import bootstrap from "../assets/bootstrap.png";
 const Skills = () => {
   const techs = [
     {
@@ -59,6 +62,36 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: mongo1,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 10,
+      src: sass,
+      title: "Sass",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 11,
+      src: node,
+      title: "Node Js",
+      style: "shadow-green-300",
+    },
+    {
+      id: 12,
+      src: postman,
+      title: "PostMan",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 13,
+      src: bootstrap,
+      title: "BootStrap",
+      style: "shadow-[#5d3169]",
+    }
   ];
 
   return (
