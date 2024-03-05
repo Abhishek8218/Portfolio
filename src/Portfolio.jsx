@@ -30,13 +30,13 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: "/assets/Service-ticket-thumbnail.png",
+      src: "https://img.freepik.com/free-vector/paper-style-core-values-background_23-2149079276.jpg?t=st=1709634295~exp=1709637895~hmac=dcb391f977aacd10c7b9b7a93543e905aabd12a65b56ee954d7b307ce61e50e0&w=996",
       title: "Service Ticketing",
       href: "https://service-ticketing-app.vercel.app/"
     },
     {
       id: 6,
-      src: "assets/artify-thumbnail.png",
+      src: "https://img.freepik.com/free-photo/colorful-image-woman-s-face-with-words-word-bottom_188544-12871.jpg?t=st=1709634192~exp=1709637792~hmac=3884df6cd92eb8d61166d84e8039da24e8a60720e20826f8091507e82e324a15&w=1060",
       title: "Artify",
       href: "https://its-artify.vercel.app/login"
     },
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105 "
               />
               <div className="flex items-center justify-center">
-                <a className="w-1/2 px-2 py-3 m-4 duration-200 hover:scale-105 hover:underline hover:underline-offset-8 hover:text-blue-500" href={href}>
+                <a className="w-1/2 px-2 py-3 m-4 font-bold duration-200 hover:scale-105 hover:underline hover:underline-offset-8 hover:text-blue-500" href={href}>
                   {title}
                 </a>
 
