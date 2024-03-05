@@ -6,9 +6,9 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      title: "One-Store47",
-      href: "https://onestore21.netlify.app/"
+      src: "https://images.unsplash.com/photo-1617440168937-c6497eaa8db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFwcHklMjBhbmQlMjBzYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      title: "Mood-Tracker",
+      href: "https://assignment-26-abhishekkuma449.codeyogi-batch-2.repl.co"
     },
     {
       id: 2,
@@ -18,29 +18,41 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1617440168937-c6497eaa8db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFwcHklMjBhbmQlMjBzYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
-      title: "Mood-Tracker",
-      href: "https://assignment-26-abhishekkuma449.codeyogi-batch-2.repl.co"
+      src: "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "One-Store47",
+      href: "https://onestore21.netlify.app/"
     },
     {
       id: 4,
+      src: "https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?t=st=1709637197~exp=1709640797~hmac=a4dd69a178ee84e6e0f9287b801345d648104993e0a8a6e45dd9da6bd2bf07f9&w=740",
+      title: "Business-Person Page ",
+      href: "https://its-business-landing-page.vercel.app/"
+    },
+    {
+      id: 5,
       src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       title: "TSP-Cares",
       href: "https://tsp-cares.vercel.app/"
     },
     {
-      id: 5,
+      id: 6,
+        src: "https://img.freepik.com/free-vector/restaurant-facade-background_23-2147673396.jpg?t=st=1709640605~exp=1709644205~hmac=6a65c894a84259ea674230522c9c815b7f2d508c5f09ebf9656fc035497cc983&w=740",
+        title: "Restaurant UI",
+        href: "https://its-restaurant-ui.netlify.app/"
+    },
+    {
+      id: 7,
       src: "https://img.freepik.com/free-vector/paper-style-core-values-background_23-2149079276.jpg?t=st=1709634295~exp=1709637895~hmac=dcb391f977aacd10c7b9b7a93543e905aabd12a65b56ee954d7b307ce61e50e0&w=996",
       title: "Service Ticketing",
       href: "https://service-ticketing-app.vercel.app/"
     },
     {
-      id: 6,
+      id: 8,
       src: "https://img.freepik.com/free-photo/colorful-image-woman-s-face-with-words-word-bottom_188544-12871.jpg?t=st=1709634192~exp=1709637792~hmac=3884df6cd92eb8d61166d84e8039da24e8a60720e20826f8091507e82e324a15&w=1060",
       title: "Artify",
       href: "https://its-artify.vercel.app/login"
     },
-
+     
   ];
 
   return (
