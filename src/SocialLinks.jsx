@@ -27,7 +27,7 @@ const SocialLinks = () => {
       id: 4,
       icon: <FaInstagram size={30} />,
       text: "Insta..",
-      href: "https://www.instagram.com/abhishek_47k/",
+      href: "https://www.instagram.com/abhishek_27k/",
       style: "rounded-br-md",
     },
   ];
@@ -41,7 +41,7 @@ const SocialLinks = () => {
               key={id}
               className={`flex justify-between items-center px-4 w-40 h-14 ${
                 style ? style : ""
-              } ml-[-100px] hover:ml-[-10px] bg-gray-500`}
+              } ml-[-100px] hover:ml-[-10px] bg-gray-500 hover:rounded-lg`}
             >
               <a
                 href={href}
