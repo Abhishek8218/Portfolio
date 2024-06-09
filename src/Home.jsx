@@ -2,7 +2,6 @@ import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import profile from "../assets/profile.jpeg";
 import SocialLinks from "./SocialLinks";
-import Abhishek_Kumar_Resume from "../assets/Abhishek_Kumar_Resume.pdf"
 const Home = () => {
 
 
