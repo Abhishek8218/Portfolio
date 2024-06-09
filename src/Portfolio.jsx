@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import academixPro from "../assets/academixPro.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -58,6 +58,13 @@ const Portfolio = () => {
       title: "Infinity Insights",
       href: "https://infinity-insights.vercel.app/"
     },
+    {
+      id: 10,
+      src: academixPro,
+      //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "AcademixPro",
+      href: "https://infinity-insights.vercel.app/"
+    }
      
   ];
 
@@ -80,7 +87,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt="project thumbnail"
-                className="rounded-md duration-200 hover:scale-105 "
+                className="rounded-md duration-200 hover:scale-105 min-h-[192px] max-h-[192px] object-cover"
               />
               <div className="flex items-center justify-center">
                 <a className="w-1/2 px-2 py-3 m-4 font-bold duration-200 hover:scale-105 hover:underline hover:underline-offset-8 hover:text-blue-500" href={href}>

@@ -14,13 +14,17 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-16 font-para">
-          I am currently pursuing my third year in BCA and have completed a 6-month web development course with React from Codeyogi platform. Additionally, I recently completed a 1-month virtual internship where I gained practical experience in web development.<br /> <br />As an aspiring fullstack web developer, I am deeply passionate about technology and enjoy creating functional and visually appealing websites using the latest web technologies."
+        I am a BCA graduate currently working as a web development intern. During my internship, I have gained practical experience in building and maintaining web applications, collaborating with team members, and using modern web technologies to deliver high-quality projects.
         </p>
 
         <br />
 
         <p className="text-xl font-para">
-          I am a fast learner who is always eager to expand my skillset and take on new challenges. Currently, I am seeking an internship opportunity to gain real-world experience and apply my knowledge in a practical setting. <br /> <br />If you're looking for a dedicated and hardworking individual who is eager to learn and grow, please don't hesitate to contact me.
+        As an aspiring fullstack web developer, I am deeply passionate about technology and enjoy creating functional and visually appealing websites using the latest web technologies. I am a fast learner who is always eager to expand my skillset and take on new challenges.
+
+<br /> <br />If you're looking for a driven and enthusiastic developer ready to make an impact, I would love to connect and discuss how I can contribute to your team.
+
+
         </p>
       </div>
     </div>
