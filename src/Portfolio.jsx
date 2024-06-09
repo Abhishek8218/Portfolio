@@ -57,9 +57,14 @@ const Portfolio = () => {
       src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Infinity Insights",
       href: "https://infinity-insights.vercel.app/"
+    }, {
+      id: 10,
+      src: "https://img.freepik.com/free-photo/marketing-strategy-planning-strategy-concept_53876-42950.jpg?t=st=1717914481~exp=1717918081~hmac=d038f007309a146248c040eda593aef780948533d67d31419df971c723aae4c0&w=996",
+      title: "Dynamic Portfolio - Internship Assignment by ThePortfolyo",
+      href: "https://dynamic-portfolio-react.vercel.app/"
     },
     {
-      id: 10,
+      id: 11,
       src: academixPro,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "AcademixPro",
