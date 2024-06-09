@@ -2,7 +2,6 @@ import React from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import profile from "../assets/profile.jpeg";
 import SocialLinks from "./SocialLinks";
-import Abhishek_Kumar_Resume from "../assets/Abhishek_Kumar_Resume.pdf"
 const Home = () => {
 
 
@@ -17,7 +16,7 @@ const Home = () => {
 
 
           <div>
-            <a href={Abhishek_Kumar_Resume} download >
+            <a href="#" download >
               <div className="flex py-3 px-5  my-6 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-white 
  w-fit" >
                 Resume <span className=""><AiOutlineDownload size={20} className=" ml-1" /></span>
