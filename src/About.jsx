@@ -14,17 +14,19 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-16 font-para">
-        I am a BCA graduate currently working as a web development intern. During my internship, I have gained practical experience in building and maintaining web applications, collaborating with team members, and using modern web technologies to deliver high-quality projects.
+          I'm a passionate Front-end Developer with experience building robust web applications using Next.js, TypeScript, and Tailwind CSS. Currently, I work at Totally Optimized Solutions, where I lead frontend development, mentor team members, and deliver scalable solutions. I’ve contributed to projects like loan management systems and complex dashboards, while also developing various reusable components.
         </p>
 
         <br />
 
         <p className="text-xl font-para">
-        As an aspiring fullstack web developer, I am deeply passionate about technology and enjoy creating functional and visually appealing websites using the latest web technologies. I am a fast learner who is always eager to expand my skillset and take on new challenges.
+          Previously, I interned at SV Infotech Software Solutions, where I enhanced the company website's user experience and developed Restful APIs for seamless user interactions.
+        </p>
 
-<br /> <br />If you're looking for a driven and enthusiastic developer ready to make an impact, I would love to connect and discuss how I can contribute to your team.
+        <br />
 
-
+        <p className="text-xl font-para">
+          I’m always eager to learn and take on new challenges. Let’s connect and discuss how I can contribute to your team!
         </p>
       </div>
     </div>

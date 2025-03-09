@@ -57,19 +57,64 @@ const Portfolio = () => {
       src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Infinity Insights",
       href: "https://infinity-insights.vercel.app/"
-    }, {
-      id: 10,
-      src: "https://img.freepik.com/free-photo/marketing-strategy-planning-strategy-concept_53876-42950.jpg?t=st=1717914481~exp=1717918081~hmac=d038f007309a146248c040eda593aef780948533d67d31419df971c723aae4c0&w=996",
-      title: "Dynamic Portfolio - Internship Assignment by ThePortfolyo",
-      href: "https://dynamic-portfolio-react.vercel.app/"
-    },
+    }, 
+    // {
+    //   id: 10,
+    //   src: "https://img.freepik.com/free-photo/marketing-strategy-planning-strategy-concept_53876-42950.jpg?t=st=1717914481~exp=1717918081~hmac=d038f007309a146248c040eda593aef780948533d67d31419df971c723aae4c0&w=996",
+    //   title: "Dynamic Portfolio - Internship Assignment by ThePortfolyo",
+    //   href: "https://dynamic-portfolio-react.vercel.app/"
+    // },
     {
       id: 11,
       src: academixPro,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "AcademixPro",
-      href: "https://academixpro.vercel.app/"
+      href: "https://academixpro.vercel.app/",
+    
+      
+    },
+    {
+      id: 12,
+      src: "/assets/tos.png",
+      //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "TOS",
+      href: "https://www.tos.systems",
+      self: false
+    },
+    {
+      id: 13,
+      src: "/assets/upi.png",
+      //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "TOS Gateway",
+      href: "https://tos-upi-gateway.vercel.app/",
+      self: false
+    },
+    {
+      id: 14,
+      src: "/assets/dindyaali.png",
+      //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Dindyaali Homestay",
+      href: "https://dindyaalistays.com/",
+      self: false
+    },
+    {
+      id: 15,
+      src: "/assets/bedwood.png",
+      //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Bedwood",
+      href: "https://bedwoodfurnishing.com/",
+      self: false
+    },
+
+    {
+      id: 16,
+      src: "/assets/seekmonk.png",
+      //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "SeekMonk",
+      href: "https://www.seekmonk.com/",
+      self: false
     }
+
      
   ];
 
@@ -87,7 +132,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.reverse().map(({ id, src, title, href }) => (
+          {portfolios.reverse().map(({ id, src, title, href , self=true}) => (
             <div key={id} className=" flex flex-col justify-between shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -95,11 +140,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105 min-h-[192px] max-h-[192px] object-cover"
               />
               <div className="flex items-center justify-center">
-                <a className="w-1/2 px-2 py-3 m-4 font-bold duration-200 hover:scale-105 hover:underline hover:underline-offset-8 hover:text-blue-500" href={href}>
+                <a className=" px-2  pb-0 m-4 font-bold duration-200 hover:scale-105 hover:underline hover:underline-offset-8 hover:text-blue-500" href={href}>
                   {title}
                 </a>
 
               </div>
+{
+      !self &&
+              <p className="text-[10px] pl-2 pb-1 ">Owner: <a href="https://tos.systems" className="text-blue-500">TOS</a></p>
+}
+
             </div>
           ))}
 
