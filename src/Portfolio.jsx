@@ -1,6 +1,12 @@
 
 import React from "react";
 import academixPro from "../assets/academixPro.png";
+import tos from "../assets/tos.png";
+import upi from "../assets/upi.png";
+import dindyaali from "../assets/dindyaali.png";
+import bedwood from "../assets/bedwood.png";
+import seekmonk from "../assets/seekmonk.png";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -75,7 +81,7 @@ const Portfolio = () => {
     },
     {
       id: 12,
-      src: "/assets/tos.png",
+      src: tos,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "TOS",
       href: "https://www.tos.systems",
@@ -83,7 +89,7 @@ const Portfolio = () => {
     },
     {
       id: 13,
-      src: "/assets/upi.png",
+      src: upi,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "TOS Gateway",
       href: "https://tos-upi-gateway.vercel.app/",
@@ -91,7 +97,7 @@ const Portfolio = () => {
     },
     {
       id: 14,
-      src: "/assets/dindyaali.png",
+      src: dindyaali,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Dindyaali Homestay",
       href: "https://dindyaalistays.com/",
@@ -99,7 +105,7 @@ const Portfolio = () => {
     },
     {
       id: 15,
-      src: "/assets/bedwood.png",
+      src: bedwood,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Bedwood",
       href: "https://bedwoodfurnishing.com/",
@@ -108,7 +114,7 @@ const Portfolio = () => {
 
     {
       id: 16,
-      src: "/assets/seekmonk.png",
+      src: seekmonk,
       //src: "https://images.unsplash.com/photo-1593444285563-4479fb28226e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "SeekMonk",
       href: "https://www.seekmonk.com/",
