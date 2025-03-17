@@ -166,7 +166,7 @@ const Portfolio = () => {
         </motion.div>
 
         <motion.div
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
+          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8  sm:px-0"
           variants={container}
           initial="hidden"
           whileInView="show"
