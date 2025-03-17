@@ -6,10 +6,10 @@ import { motion } from "framer-motion"
 
 const Home = () => {
   return (
-    <div name="home" className="h-fit w-full text-white md:h-fit pt-20">
+    <div name="home" className="h-fit w-full text-white md:h-fit pt-16 sm:pt-20">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-fit px-4 md:flex-row py-10">
         <motion.div
-          className="flex flex-col justify-center h-fit pt-20 pb-15 md:mr-8"
+          className="flex flex-col justify-center h-fit sm:pt-20 pb-15 md:mr-8"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
