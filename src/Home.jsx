@@ -2,6 +2,7 @@ import React from "react";
 import { GoLinkExternal} from "react-icons/go";
 import profile from "../assets/profile.jpeg";
 import SocialLinks from "./SocialLinks";
+import hero from "../assets/hero.png";
 const Home = () => {
 
 
@@ -16,7 +17,7 @@ const Home = () => {
 
 
           <div>
-            <a href="https://drive.google.com/file/d/1BhsynuzSoh4e2oDEHzcLMDJS9M7flPV-/view?usp=sharing" download >
+            <a href="https://drive.google.com/file/d/1BhsynuzSoh4e2oDEHzcLMDJS9M7flPV-/view?usp=sharing" target="blank" download >
               <div className="flex py-3 px-5  my-6 items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-white 
  w-fit" >
                 Resume <span className=""><GoLinkExternal size={20} className=" ml-1" /></span>
@@ -26,7 +27,7 @@ const Home = () => {
           <SocialLinks />
         </div>
         <img
-          src={profile}
+          src={hero}
           alt="profile"
           className="rounded-2xl mx-auto   md: max-w-xs mt-6 md:mt-0 object-cover"
         />

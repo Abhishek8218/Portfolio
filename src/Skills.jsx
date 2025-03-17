@@ -12,6 +12,7 @@ import sass from "../assets/sass.png";
 import node from "../assets/node.png";
 import postman from "../assets/postman.png";
 import bootstrap from "../assets/bootstrap.png";
+import typescript from "../assets/typescript.png";
 const Skills = () => {
   const techs = [
     {
@@ -52,7 +53,7 @@ const Skills = () => {
     },
     {
       id: 7,
-      src: "https://cdn.discordapp.com/attachments/910152020034486282/1098178164863291452/typescript.png",
+      src: typescript,
       title: "Typescript",
       style: "shadow-blue-400",
     },
