@@ -6,6 +6,7 @@ import upi from "../assets/upi.png";
 import dindyaali from "../assets/dindyaali.png";
 import bedwood from "../assets/bedwood.png";
 import seekmonk from "../assets/seekmonk.png";
+import nextgen from "../assets/nextgen.png";
 
 
 const Portfolio = () => {
@@ -119,6 +120,12 @@ const Portfolio = () => {
       title: "SeekMonk",
       href: "https://www.seekmonk.com/",
       self: false
+    },
+    {
+      id: 17,
+      src: nextgen,
+      title: "NextGen-Tech",
+      href: "https://nextgentechh.vercel.app", 
     }
 
      
