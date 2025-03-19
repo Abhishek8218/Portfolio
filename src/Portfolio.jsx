@@ -8,6 +8,7 @@ import dindyaali from "../assets/dindyaali.png"
 import bedwood from "../assets/bedwood.png"
 import seekmonk from "../assets/seekmonk.png"
 import nextgen from "../assets/nextgen.png"
+import dashboard from "../assets/dashboard.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -127,6 +128,13 @@ const Portfolio = () => {
       title: "NextGen-Tech",
       href: "https://nextgentechh.vercel.app",
       description: "Innovative technology solutions showcase.",
+    },
+    {
+      id: 18,
+      src: dashboard,
+      title: "Modern Dashboard Design",
+      href: "https://modern-dashboard-lyart.vercel.app/project?tab=Ongoing",
+      description: "Modern & Sleek Dashboard template.",
     },
   ]
 
