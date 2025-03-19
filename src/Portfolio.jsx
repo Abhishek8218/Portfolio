@@ -9,6 +9,7 @@ import bedwood from "../assets/bedwood.png"
 import seekmonk from "../assets/seekmonk.png"
 import nextgen from "../assets/nextgen.png"
 import dashboard from "../assets/dashboard.png"
+import hyperdash from "../assets/hyperdash.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -116,6 +117,13 @@ const Portfolio = () => {
     },
     {
       id: 16,
+      src: hyperdash,
+      title: "HyperDash",
+      href: "https://hyperdash-delta.vercel.app/",
+      description: "Car Advertisment Website.",
+    },
+    {
+      id: 17,
       src: seekmonk,
       title: "SeekMonk",
       href: "https://www.seekmonk.com/",
@@ -123,14 +131,14 @@ const Portfolio = () => {
       description: "Job search and recruitment platform.",
     },
     {
-      id: 17,
+      id: 18,
       src: nextgen,
       title: "NextGen-Tech",
       href: "https://nextgentechh.vercel.app",
       description: "Innovative technology solutions showcase.",
     },
     {
-      id: 18,
+      id: 19,
       src: dashboard,
       title: "Modern Dashboard Design",
       href: "https://modern-dashboard-lyart.vercel.app/project?tab=Ongoing",
