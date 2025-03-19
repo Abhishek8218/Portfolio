@@ -74,7 +74,7 @@ const Home = () => {
           <img
             src={hero || "/placeholder.svg"}
             alt="profile"
-            className="rounded-2xl hero-filter mx-auto relative md:max-w-xs mt-6 md:mt-0 object-cover z-10"
+            className="rounded-2xl hero-filter max-sm:h-[400px] mx-auto relative md:max-w-xs mt-6 md:mt-0 object-cover z-10"
           />
         </motion.div>
       </div>
