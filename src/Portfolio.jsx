@@ -87,7 +87,7 @@ const Portfolio = () => {
       id: 12,
       src: tos,
       title: "TOS",
-      href: "https://www.tos.systems",
+      href: "https://tos-vert.vercel.app",
       self: false,
       description: "Enterprise solutions for business optimization.",
     },
