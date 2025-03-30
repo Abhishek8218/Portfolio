@@ -45,7 +45,7 @@ const Home = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="https://drive.google.com/file/d/1BhsynuzSoh4e2oDEHzcLMDJS9M7flPV-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QBZTUpo9Z3q8j_A41MgmHmyXVn8oBE_h/view?usp=sharing"
                 target="blank"
                 download
                 className=" flex items-center"
