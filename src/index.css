@@ -8,9 +8,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-html {
-  cursor: none;
-}
 
 @media (max-width: 768px) {
   html {

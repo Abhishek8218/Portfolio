@@ -7,13 +7,11 @@ import Portfolio from "./Portfolio"
 import Skills from "./Skills"
 import Contact from "./Contact"
 import Footer from "./footer"
-import CustomCursor from "./ui/cursor"
 import AnimatedBackground from "./ui/animated-background"
 
 export default function App() {
   return (
     <div className="relative">
-      <CustomCursor />
       <AnimatedBackground />
       <NavBar />
       <Home />
