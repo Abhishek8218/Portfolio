@@ -103,7 +103,7 @@ const Portfolio = () => {
       id: 14,
       src: dindyaali,
       title: "Dindyaali Homestay",
-      href: "https://dindyaalistays.com/",
+      href: "https://dindyali.vercel.app/",
       self: false,
       description: "Booking platform for a premium homestay.",
     },
