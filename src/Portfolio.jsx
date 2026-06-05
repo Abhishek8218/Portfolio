@@ -10,6 +10,7 @@ import seekmonk from "../assets/seekmonk.png"
 import nextgen from "../assets/nextgen.png"
 import dashboard from "../assets/dashboard.png"
 import hyperdash from "../assets/hyperdash.png"
+import polishAi from "../assets/polishAi.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -143,6 +144,13 @@ const Portfolio = () => {
       title: "Modern Dashboard Design",
       href: "https://modern-dashboard-lyart.vercel.app/project?tab=Ongoing",
       description: "Modern & Sleek Dashboard template.",
+    },
+     {
+      id: 20,
+      src: polishAi,
+      title: "Polish AI Web-App",
+      href: "https://polishai.vercel.app/",
+      description: "AI-powered text polishing with custom frameworks.",
     },
   ]
 
