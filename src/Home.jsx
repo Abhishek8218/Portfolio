@@ -29,7 +29,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            Welcome to my portfolio website! I'm Abhishek, a fullstack developer. I'm passionate about creating visually
+            Welcome to my portfolio website! I'm Abhishek, a Frontend Heavy Fullstack developer. I'm passionate about creating visually
             appealing and functional websites using the latest web technologies. Feel free to browse my portfolio and
             reach out to me with any questions or project inquiries. Thank you for stopping by!
           </motion.p>
@@ -45,7 +45,7 @@ const Home = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="https://drive.google.com/file/d/1ZlPJkiwaXYktf7FHOoubcWg7QjU8XQen/view?usp=sharing"
+                href="https://drive.google.com/file/d/18ONY_6673Z6lhgyy0Sb_AeCSlpQhB12i/view"
                 target="blank"
                 download
                 className=" flex items-center"
